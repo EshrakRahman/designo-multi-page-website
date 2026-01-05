@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* ===== CSS Variables for Colors & Typography ===== */
+:root {
+  /* Primary Colors */
+  --color-peach: #e7816b;
+  --color-black: #1d1c1e;
+  --color-white: #ffffff;
+
+  /* Secondary Colors */
+  --color-light-peach: #ffad9b;
+  --color-dark-grey: #333136;
+  --color-light-grey: #f1f3f5;
+
+  /* Typography */
+  --font-body: "Jost", sans-serif;
+  --font-heading: "Jost", sans-serif;
+
+  --font-body-size: 16px;
+  --font-body-line: 26px;
+
+  --font-h1-size: 48px;
+  --font-h1-line: 48px;
+
+  --font-h2-size: 40px;
+  --font-h2-line: 48px;
+  --font-h2-spacing: 2px;
+
+  --font-h3-size: 20px;
+  --font-h3-line: 26px;
+  --font-h3-spacing: 5px;
+}
+
+/* ===== Typography Utilities ===== */
+.tp-1 {
+  font-size: var(--font-h1-size);
+  line-height: var(--font-h1-line);
+  font-weight: 500; /* Medium */
+  font-family: var(--font-heading);
+}
+
+.tp-2 {
+  font-size: var(--font-h2-size);
+  line-height: var(--font-h2-line);
+  letter-spacing: var(--font-h2-spacing);
+  font-weight: 500;
+  font-family: var(--font-heading);
+}
+
+.tp-3 {
+  font-size: var(--font-h3-size);
+  line-height: var(--font-h3-line);
+  letter-spacing: var(--font-h3-spacing);
+  font-weight: 500;
+  font-family: var(--font-heading);
+}
+
+.tp-4 {
+  font-size: var(--font-body-size);
+  line-height: var(--font-body-line);
+  font-weight: 400; /* Regular */
+  font-family: var(--font-body);
+}
