@@ -57,6 +57,9 @@ export { default as illustrationCanada } from "./shared/desktop/illustration-can
 export { default as illustrationUK } from "./shared/desktop/illustration-united-kingdom.svg";
 export { default as illustrationAustralia } from "./shared/desktop/illustration-australia.svg";
 
+export { default as iconClose } from "./shared/mobile/icon-close.svg";
+export { default as iconHamburger } from "./shared/mobile/icon-hamburger.svg";
+
 export { default as logoDark } from "./shared/desktop/logo-dark.png";
 export { default as logoLight } from "./shared/desktop/logo-light.png";
 
