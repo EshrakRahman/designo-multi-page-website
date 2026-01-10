@@ -1,2 +1,6 @@
-export { default as Container } from "./Container";
-export { MobileNav } from "./navbar";
+export * from "./navbar";
+export * from "./header";
+export * from "./footer";
+export * from "./shared";
+
+export { Container, GetInTouch } from "./shared";

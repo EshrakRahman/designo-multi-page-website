@@ -96,4 +96,38 @@
     text-decoration-color: var(--color-dark-grey);
     text-underline-offset: 4px;
   }
+
+  .btn-regular {
+    @apply px-6 py-4 bg-white font-medium text-base tracking-normal text-dark-grey rounded-xl 
+    hover:cursor-pointer hover:text-white hover:bg-light-peach transition-all duration-300 
+    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-peach
+    focus-visible:ring-offset-2;
+  }
+}
+
+@layer utilities {
+  /* Get In Touch background */
+  .bg-get-in-touch {
+    background-image: url("./assets/shared/desktop/bg-pattern-call-to-action.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 640px;
+  }
+
+  /* Header background (mobile-first) */
+  .bg-header-small {
+    background-image: url("./assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 320px;
+  }
+
+  @media (min-width: 768px) {
+    .bg-header-small {
+      background-image: url("./assets/shared/desktop/bg-pattern-call-to-action.svg");
+      background-repeat: no-repeat;
+      background-position: left top;
+      background-size: cover;
+    }
+  }
 }

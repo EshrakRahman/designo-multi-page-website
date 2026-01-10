@@ -6,13 +6,16 @@ import {
   iconYoutube,
   logoLight,
 } from "@/assets";
-import Container from "../Container";
+import { Container, GetInTouch } from "@/components";
 
 export default function Footer() {
   return (
     <>
-      <footer className="bg-black pt-80 md:pt-60 ">
+      <footer className="bg-black pt-80 md:pt-60 relative z-20">
         <Container>
+          <div className="absolute inset-x-0 top-0 -translate-y-1/2 z-30">
+            <GetInTouch />
+          </div>
           <div className="flex md:py-8 top w-full md:border-b md:border-white/10 flex-col md:flex-row items-center justify-center md:justify-between">
             <div className="left w-full md:w-auto flex flex-col md:flex-row items-center justify-center md:justify-between">
               <div className="logo w-50.5">

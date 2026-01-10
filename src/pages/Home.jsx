@@ -1,13 +1,11 @@
-import { MobileNav } from "@/components";
-import { Footer } from "@/components/footer";
-import { DesktopNavbar } from "@/components/navbar";
+import { DesktopNavbar, MobileNav, SmallHeader, Footer } from "@/components";
 
 export default function Home() {
   return (
     <>
       <MobileNav />
       <DesktopNavbar />
-      <Footer />
+      <SmallHeader />
     </>
   );
 }

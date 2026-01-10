@@ -1,6 +1,6 @@
 import { iconClose, iconHamburger, logoDark } from "@/assets";
 import { useState } from "react";
-import Container from "../Container";
+import { Container } from "@/components";
 
 export default function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);

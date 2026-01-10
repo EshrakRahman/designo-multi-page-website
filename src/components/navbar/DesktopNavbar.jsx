@@ -1,11 +1,11 @@
 import { logoDark } from "@/assets";
-import Container from "../Container";
+import { Container } from "@/components";
 
 export default function Desktop() {
   return (
     <>
       <Container>
-        <nav className="hidden py-6 md:flex items-center justify-between">
+        <nav className="hidden py-6 md:flex items-center justify-between z-10">
           <div className="logo w-50.5">
             <img src={logoDark} alt="Designo logo" />
           </div>
