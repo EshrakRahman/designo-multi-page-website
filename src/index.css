@@ -134,6 +134,13 @@
     background-position: center;
   }
 
+  .bg-app-design {
+    background-image: url("./assets/home/mobile/image-app-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
   @media (min-width: 768px) {
     .bg-header-small {
       background-image: url("./assets/shared/desktop/bg-pattern-call-to-action.svg");
@@ -148,11 +155,24 @@
       background-size: cover;
       background-position: center;
     }
+    .bg-app-design {
+      background-image: url("./assets/home/tablet/image-app-design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
   }
 
   @media (min-width: 1023px) {
     .bg-web-design {
       background-image: url("./assets/home/desktop/image-web-design-small.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    .bg-app-design {
+      background-image: url("./assets/home/desktop/image-app-design.jpg");
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
