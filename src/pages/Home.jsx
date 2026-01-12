@@ -6,6 +6,7 @@ import {
   HomeHeader,
   Service,
 } from "@/components";
+import { ServiceContainer } from "@/components/home";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <MobileNav />
       <DesktopNavbar />
       <HomeHeader />
-      <Service />
+      <ServiceContainer />
     </>
   );
 }

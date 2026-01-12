@@ -1,27 +1,28 @@
 import { iconRightArrow } from "@/assets";
 import { Container } from ".";
 
-export default function Service() {
+export default function Service({ title, bgImg, className = "" }) {
   return (
     <>
-      <Container>
-        <section className="bg-web-design rounded-lg py-10 mb-10">
-          <div className="info flex flex-col items-center ">
-            <h3 className="text-[40px] md:text-[28px] font-medium md:leading-9 leading-12 tracking-wide text-white uppercase">
-              web design
-            </h3>
-            <div className=" flex items-center gap-6">
-              <a
-                href=""
-                className="font-medium text-base text-white tracking-wider hover:underline  uppercase"
-              >
-                view projcet
-              </a>
-              <img className="h-3" src={iconRightArrow} alt="" />
-            </div>
+      <section
+        className={`${bgImg} ${className} rounded-lg py-20 flex items-center justify-center relative group overflow-hidden cursor-pointer`}
+      >
+        <div className="absolute  inset-0 bg-peach opacity-0 group-hover:opacity-90 transition-all duration-300 "></div>
+        <div className="info relative z-10 flex flex-col items-center justify-center ">
+          <h3 className="text-[40px] md:text-[28px] font-medium md:leading-9 leading-12 tracking-wide text-white uppercase">
+            {title}
+          </h3>
+          <div className=" flex items-center gap-6">
+            <a
+              href=""
+              className="font-medium text-base text-white tracking-wider hover:underline  uppercase"
+            >
+              view projcet
+            </a>
+            <img className="h-3" src={iconRightArrow} alt="" />
           </div>
-        </section>
-      </Container>
+        </div>
+      </section>
     </>
   );
 }
