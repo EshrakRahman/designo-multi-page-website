@@ -5,7 +5,7 @@ export default function HomeHeader() {
   return (
     <>
       <Container fullWidth={true}>
-        <header className=" home-header  md:rounded-xl bg-peach flex lg:px-20  flex-col lg:flex-row items-center pt-20 overflow-hidden">
+        <header className=" home-header  md:rounded-xl bg-peach flex lg:px-20 mb-10 md:mb-20 lg:mb-25  flex-col lg:flex-row items-center pt-20 overflow-hidden">
           <div className="info flex flex-col  items-start space-y-6 ">
             <h1 className="font-medium text-3xl md:text-5xl md:leading-12 md:max-w-120 lg:text-left leading-9 max-w-75 text-center text-white">
               Award-winning custom designs and digital branding solutions

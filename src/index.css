@@ -98,7 +98,7 @@
   }
 
   .btn-regular {
-    @apply px-6 py-4 bg-white font-medium text-base tracking-normal text-dark-grey rounded-xl 
+    @apply px-6 py-4 bg-white uppercase font-medium text-base tracking-normal text-dark-grey rounded-xl 
     hover:cursor-pointer hover:text-white hover:bg-light-peach transition-all duration-300 
     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-peach
     focus-visible:ring-offset-2;
@@ -127,12 +127,35 @@
     background-size: cover;
   }
 
+  .bg-web-design {
+    background-image: url("./assets/home/tablet/image-web-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
   @media (min-width: 768px) {
     .bg-header-small {
       background-image: url("./assets/shared/desktop/bg-pattern-call-to-action.svg");
       background-repeat: no-repeat;
       background-position: top top;
       background-size: 1200px;
+    }
+
+    .bg-web-design {
+      background-image: url("./assets/home/tablet/image-web-design.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+
+  @media (min-width: 1023px) {
+    .bg-web-design {
+      background-image: url("./assets/home/desktop/image-web-design-small.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
   }
 }

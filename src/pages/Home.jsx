@@ -4,6 +4,7 @@ import {
   SmallHeader,
   Footer,
   HomeHeader,
+  Service,
 } from "@/components";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <MobileNav />
       <DesktopNavbar />
       <HomeHeader />
+      <Service />
     </>
   );
 }
