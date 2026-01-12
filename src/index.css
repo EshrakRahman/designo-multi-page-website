@@ -103,6 +103,12 @@
     focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-peach
     focus-visible:ring-offset-2;
   }
+  .btn-regular-feature {
+    @apply px-6 py-4 bg-peach uppercase font-medium text-base tracking-normal text-white rounded-xl 
+    hover:cursor-pointer hover:text-white hover:bg-light-peach transition-all duration-300 
+    focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-peach
+    focus-visible:ring-offset-2;
+  }
 }
 
 @layer utilities {

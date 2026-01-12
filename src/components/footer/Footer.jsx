@@ -23,7 +23,7 @@ export default function Footer() {
               </div>
               <div className=" py-6 border-b md:hidden w-full h-0.5 border-white/10"></div>
             </div>
-            <div className="navlinks  right flex flex-col md:items-center md:flex-row space-y-6 md:space-x-6 md:space-y-0">
+            <div className="navlinks  right flex mt-5 md:mt-0 flex-col items-center md:items-center md:flex-row space-y-6 md:space-x-6 md:space-y-0">
               <a href="" className="nav-link-desktop  text-white">
                 Our compnay
               </a>
@@ -59,7 +59,7 @@ export default function Footer() {
                   Toronto, Ontario M9C 3J5
                 </span>
               </address>
-              <div className="social-links flex space-x-4 py-6 self-end md:py-0">
+              <div className="social-links flex space-x-4 py-6 md:self-end md:py-0">
                 <img src={iconFacebook} alt="Facebook icon" />
                 <img src={iconYoutube} alt="Youtube icon" />
                 <img src={iconTwitter} alt="Twitter icon" />

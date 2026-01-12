@@ -5,8 +5,9 @@ import {
   Footer,
   HomeHeader,
   Service,
+  Feature,
 } from "@/components";
-import { ServiceContainer } from "@/components/home";
+import { FeatureContainer, ServiceContainer } from "@/components/home";
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <DesktopNavbar />
       <HomeHeader />
       <ServiceContainer />
+      <FeatureContainer />
+      <Footer />
     </>
   );
 }
