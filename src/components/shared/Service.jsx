@@ -1,5 +1,4 @@
 import { iconRightArrow } from "@/assets";
-import { Container } from ".";
 
 export default function Service({ title, bgImg, className = "" }) {
   return (
@@ -9,7 +8,7 @@ export default function Service({ title, bgImg, className = "" }) {
       >
         <div className="absolute  inset-0 bg-peach opacity-0 group-hover:opacity-90 transition-all duration-300 "></div>
         <div className="info relative z-10 flex flex-col items-center justify-center ">
-          <h3 className="text-[40px] md:text-[28px] font-medium md:leading-9 leading-12 tracking-wide text-white uppercase">
+          <h3 className="text-4xl md:text-[28px] font-medium md:leading-9 leading-12 tracking-wide text-white uppercase">
             {title}
           </h3>
           <div className=" flex items-center gap-6">

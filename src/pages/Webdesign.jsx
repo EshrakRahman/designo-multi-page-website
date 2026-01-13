@@ -3,6 +3,8 @@ import {
   MobileNav,
   SmallHeader,
   PhotoCardContainer,
+  WebServiceContainer,
+  Footer,
 } from "@/components";
 
 export default function Webdesign() {
@@ -12,6 +14,8 @@ export default function Webdesign() {
       <DesktopNavbar />
       <SmallHeader />
       <PhotoCardContainer />
+      <WebServiceContainer />
+      <Footer />
     </>
   );
 }
