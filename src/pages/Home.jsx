@@ -1,12 +1,4 @@
-import {
-  DesktopNavbar,
-  MobileNav,
-  SmallHeader,
-  Footer,
-  HomeHeader,
-  Service,
-  Feature,
-} from "@/components";
+import { DesktopNavbar, MobileNav, Footer, HomeHeader } from "@/components";
 import { FeatureContainer, ServiceContainer } from "@/components/home";
 
 export default function Home() {

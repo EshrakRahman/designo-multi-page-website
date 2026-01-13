@@ -3,9 +3,9 @@ import { Container } from "@/components";
 export default function SmallHeader() {
   return (
     <>
-      <header className="bg-header-small bg-peach ">
-        <Container>
-          <div className="content py-40 flex flex-col items-center space-y-4">
+      <Container fullWidth={true}>
+        <header className="bg-header-small bg-peach md:rounded-lg">
+          <div className="content py-30 flex flex-col items-center space-y-4">
             <h1 className="font-medium text-white md:text-5xl md:leading-12 text-3xl leading-8 ">
               Web Design
             </h1>
@@ -14,8 +14,8 @@ export default function SmallHeader() {
               memorable brand experiences.
             </p>
           </div>
-        </Container>
-      </header>
+        </header>
+      </Container>
     </>
   );
 }

@@ -6,6 +6,15 @@ export { default as imageAboutHeroTablet } from "./about/tablet/image-about-hero
 export { default as imageRealDealDesktop } from "./about/desktop/image-real-deal.jpg";
 export { default as imageWorldClassTalentDesktop } from "./about/desktop/image-world-class-talent.jpg";
 
+// Web Design – Desktop
+export { default as bgPatternIntroWeb } from "./web-design/desktop/bg-pattern-intro-web.svg";
+export { default as imageBlogr } from "./web-design/desktop/image-blogr.jpg";
+export { default as imageBuilder } from "./web-design/desktop/image-builder.jpg";
+export { default as imageCamp } from "./web-design/desktop/image-camp.jpg";
+export { default as imageExpress } from "./web-design/desktop/image-express.jpg";
+export { default as imagePhoton } from "./web-design/desktop/image-photon.jpg";
+export { default as imageTransfer } from "./web-design/desktop/image-transfer.jpg";
+
 // App Design
 export { default as imageAirfilter } from "./app-design/desktop/image-airfilter.jpg";
 export { default as imageEyecam } from "./app-design/desktop/image-eyecam.jpg";
