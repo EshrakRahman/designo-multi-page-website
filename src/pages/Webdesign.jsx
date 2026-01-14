@@ -6,6 +6,7 @@ import {
   WebServiceContainer,
   Footer,
 } from "@/components";
+import { webDesignData } from "@/data";
 
 export default function Webdesign() {
   return (
@@ -17,7 +18,7 @@ export default function Webdesign() {
         description="We build websites that serve as powerful marketing tools and bring
               memorable brand experiences."
       />
-      <PhotoCardContainer />
+      <PhotoCardContainer items={webDesignData} />
       <WebServiceContainer />
       <Footer />
     </>

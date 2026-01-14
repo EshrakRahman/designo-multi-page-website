@@ -1,4 +1,4 @@
-import { Home, Webdesign } from "@/pages";
+import { Appdesing, Home, Webdesign } from "@/pages";
 import { BrowserRouter, Route, Routes } from "react-router";
 
 export default function App() {
@@ -8,6 +8,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/web" element={<Webdesign />} />
+          <Route path="/app" element={<Appdesing />} />
         </Routes>
       </BrowserRouter>
     </>
