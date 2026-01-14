@@ -1,4 +1,5 @@
 import { iconRightArrow } from "@/assets";
+import { Link } from "react-router";
 
 export default function Service({ title, bgImg, className = "" }) {
   return (
@@ -12,12 +13,12 @@ export default function Service({ title, bgImg, className = "" }) {
             {title}
           </h3>
           <div className=" flex items-center gap-6">
-            <a
-              href=""
+            <Link
+              to="/web"
               className="font-medium text-base text-white tracking-wider hover:underline  uppercase"
             >
               view projcet
-            </a>
+            </Link>
             <img className="h-3" src={iconRightArrow} alt="" />
           </div>
         </div>
