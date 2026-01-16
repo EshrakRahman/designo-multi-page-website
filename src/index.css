@@ -133,6 +133,13 @@
     background-size: cover;
   }
 
+  .about-header {
+    background-image: url("./assets/shared/desktop/bg-pattern-small-circle.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+
   .bg-web-design {
     background-image: url("./assets/home/tablet/image-web-design.jpg");
     background-repeat: no-repeat;
@@ -152,6 +159,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .bg-about-us-header {
+    background-image: url("./assets/about/mobile/image-about-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
   }
 
   @media (min-width: 768px) {
@@ -181,6 +195,12 @@
       background-size: cover;
       background-position: center;
     }
+    .bg-about-us-header {
+      background-image: url("./assets/about/tablet/image-about-hero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
+    }
   }
 
   @media (min-width: 1023px) {
@@ -203,6 +223,12 @@
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
+    }
+    .bg-about-us-header {
+      background-image: url("./assets/about/desktop/image-about-hero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: top;
     }
   }
 }
