@@ -1,12 +1,11 @@
-import { DesktopNavbar, MobileNav } from "@/components";
-import TwoSection from "@/components/shared/TwoSection";
+import { DesktopNavbar, MobileNav, AboutUsHeader } from "@/components";
 
 export default function AboutUs() {
   return (
     <>
       <MobileNav />
       <DesktopNavbar />
-      <TwoSection />
+      <AboutUsHeader />
     </>
   );
 }
