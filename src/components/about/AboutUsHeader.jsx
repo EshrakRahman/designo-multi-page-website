@@ -16,6 +16,7 @@ export default function AboutUsHeader() {
         textColor="text-white"
         titleColor="text-white"
         bgImg="about-header"
+        bgColor="bg-peach"
         images={{
           mobile: imageAboutHeroMobile,
           tablet: imageAboutHeroTablet,

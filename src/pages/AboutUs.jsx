@@ -1,11 +1,19 @@
-import { DesktopNavbar, MobileNav, AboutUsHeader } from "@/components";
+import {
+  DesktopNavbar,
+  MobileNav,
+  AboutUsHeader,
+  AboutTalent,
+} from "@/components";
 
 export default function AboutUs() {
   return (
     <>
       <MobileNav />
       <DesktopNavbar />
-      <AboutUsHeader />
+      <div className="mb-20">
+        <AboutUsHeader />
+      </div>
+      <AboutTalent />
     </>
   );
 }

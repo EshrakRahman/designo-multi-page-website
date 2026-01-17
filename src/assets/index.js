@@ -4,7 +4,11 @@ export { default as imageAboutHeroMobile } from "./about/mobile/image-about-hero
 export { default as imageAboutHeroTablet } from "./about/tablet/image-about-hero.jpg";
 
 export { default as imageRealDealDesktop } from "./about/desktop/image-real-deal.jpg";
+export { default as imageRealDealMobile } from "./about/Mobile/image-real-deal.jpg";
+export { default as imageRealDealTablet } from "./about/Tablet/image-real-deal.jpg";
 export { default as imageWorldClassTalentDesktop } from "./about/desktop/image-world-class-talent.jpg";
+export { default as imageWorldClassTalentMobile } from "./about/mobile/image-world-class-talent.jpg";
+export { default as imageWorldClassTalentTablet } from "./about/tablet/image-world-class-talent.jpg";
 
 // Web Design – Desktop
 export { default as bgPatternIntroWeb } from "./web-design/desktop/bg-pattern-intro-web.svg";
