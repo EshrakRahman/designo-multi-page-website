@@ -3,6 +3,7 @@ import {
   MobileNav,
   AboutUsHeader,
   AboutTalent,
+  LocationPhotoCard,
 } from "@/components";
 
 export default function AboutUs() {
@@ -14,6 +15,7 @@ export default function AboutUs() {
         <AboutUsHeader />
       </div>
       <AboutTalent />
+      <LocationPhotoCard />
     </>
   );
 }

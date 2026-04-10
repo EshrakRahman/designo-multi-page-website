@@ -43,7 +43,7 @@ export default function TwoSection({
             className={`info lg:w-[60%] md:rounded-b-2xl  ${
               reverse
                 ? "lg:rounded-b-none lg:rounded-tl-2xl lg:rounded-bl-2xl"
-                : "lg:rounded-tr-2xl lg:rounded-br-2xl"
+                : "lg:rounded-tr-2xl lg:rounded-br-2xl lg:rounded-bl-none"
             } lg:order-  ${bgImg} space-y-6 lg:items-start   ${bgColor} px-10 py-20 flex items-center flex-col`}
           >
             <h1
