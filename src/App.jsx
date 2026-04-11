@@ -1,4 +1,11 @@
-import { AboutUs, Appdesing, Graphicdesing, Home, Webdesign } from "@/pages";
+import {
+  AboutUs,
+  Appdesing,
+  Graphicdesing,
+  Home,
+  Location,
+  Webdesign,
+} from "@/pages";
 import { BrowserRouter, Route, Routes } from "react-router";
 
 export default function App() {
@@ -11,6 +18,7 @@ export default function App() {
           <Route path="/app" element={<Appdesing />} />
           <Route path="/graphic" element={<Graphicdesing />} />
           <Route path="/about" element={<AboutUs />} />
+          <Route path="/location" element={<Location />} />
         </Routes>
       </BrowserRouter>
     </>
