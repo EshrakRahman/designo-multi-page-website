@@ -8,7 +8,7 @@ import TwoSection from "../shared/TwoSection";
 
 export default function RealDealSection() {
   return (
-    <>
+    <div className="mb-70">
       <TwoSection
         title="The real deal"
         paragraphs={[
@@ -27,6 +27,6 @@ export default function RealDealSection() {
         bgColor="bg-[#FDF3F0]"
         reverse={true}
       />
-    </>
+    </div>
   );
 }

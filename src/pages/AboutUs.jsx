@@ -5,6 +5,7 @@ import {
   AboutTalent,
   LocationPhotoCard,
   RealDealSection,
+  Footer,
 } from "@/components";
 
 export default function AboutUs() {
@@ -18,6 +19,7 @@ export default function AboutUs() {
       <AboutTalent />
       <LocationPhotoCard />
       <RealDealSection />
+      <Footer />
     </>
   );
 }
