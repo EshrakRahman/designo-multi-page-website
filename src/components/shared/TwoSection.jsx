@@ -40,7 +40,7 @@ export default function TwoSection({
             />
           </div>
           <div
-            className={`info lg:w-[60%] md:rounded-b-2xl  ${
+            className={`info lg:w-[60%] md:rounded-b-2xl lg:flex lg:justify-center  ${
               reverse
                 ? "lg:rounded-b-none lg:rounded-tl-2xl lg:rounded-bl-2xl"
                 : "lg:rounded-tr-2xl lg:rounded-br-2xl lg:rounded-bl-none"

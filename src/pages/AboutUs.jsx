@@ -4,6 +4,7 @@ import {
   AboutUsHeader,
   AboutTalent,
   LocationPhotoCard,
+  RealDealSection,
 } from "@/components";
 
 export default function AboutUs() {
@@ -16,6 +17,7 @@ export default function AboutUs() {
       </div>
       <AboutTalent />
       <LocationPhotoCard />
+      <RealDealSection />
     </>
   );
 }
