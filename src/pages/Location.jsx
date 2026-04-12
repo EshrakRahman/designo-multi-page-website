@@ -7,7 +7,7 @@ export default function Location() {
       <MobileNav />
       <DesktopNavbar />
       <LocationCardContainer />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

@@ -7,18 +7,22 @@ export default function LocationCard({
   address,
   phone,
   email,
+  index,
 }) {
+  const isEven = index % 2 === 0;
   return (
     <Container fullWidth={true}>
-      <section className="min-h-178.5 my-6 md:my-25 ">
-        <div className="img ">
+      <section
+        className={`h-178.5 md:h-full my-6 md:mb-25 md:mt-15 lg:flex  lg:gap-6 ${isEven ? "lg:flex-row-reverse" : ""}`}
+      >
+        <div className="img lg:w-87.5  md:mb-6 lg:mb-0">
           <img
-            className="w-full md:rounded-3xl"
+            className="w-full md:rounded-3xl lg:h-81.5"
             src={image}
             alt={`Map of ${country}`}
           />
         </div>
-        <div className="details md:mt-6 md:rounded-3xl md:p-20 flex flex-col justify-center items-center md:items-start py-14 two-circles-pattern bg-[#FDF3F0]">
+        <div className="details lg:h-81.5 lg:w-full md:pt-6 md:rounded-3xl md:p-20 flex flex-col justify-center items-center md:items-start py-14 two-circles-pattern bg-[#FDF3F0]">
           <p className="text-peach font-medium text-3xl leading-8 tracking-normal ">
             {country}
           </p>
