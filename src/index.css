@@ -140,6 +140,13 @@
     background-position: top left;
   }
 
+  .two-circles-pattern {
+    background-image: url("./assets/shared/desktop/bg-pattern-two-circles.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top left;
+  }
+
   .bg-web-design {
     background-image: url("./assets/home/tablet/image-web-design.jpg");
     background-repeat: no-repeat;
