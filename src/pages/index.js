@@ -4,3 +4,4 @@ export { default as Appdesing } from "./Appdesing";
 export { default as Graphicdesing } from "./Graphicdesign";
 export { default as AboutUs } from "./Aboutus";
 export { default as Location } from "./Location";
+export { default as ContactUs } from "./ContactUs";

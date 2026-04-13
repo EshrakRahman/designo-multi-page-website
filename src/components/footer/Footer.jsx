@@ -8,12 +8,16 @@ import {
 } from "@/assets";
 import { Container, GetInTouch } from "@/components";
 
-export default function Footer() {
+export default function Footer({ getInTouch = false }) {
   return (
     <>
-      <footer className="bg-black pt-80 md:pt-60 relative z-20">
+      <footer
+        className={`bg-black   relative z-20 ${getInTouch ? "pt-15 mt-10" : "pt-80 md:pt-60"}`}
+      >
         <Container>
-          <div className="absolute inset-x-0 top-0 -translate-y-1/2 z-30">
+          <div
+            className={`absolute inset-x-0 top-0 -translate-y-1/2 z-30 ${getInTouch ? "hidden" : ""}`}
+          >
             <GetInTouch />
           </div>
           <div className="flex md:py-8 top w-full md:border-b md:border-white/10 flex-col md:flex-row items-center justify-center md:justify-between">

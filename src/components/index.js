@@ -4,4 +4,7 @@ export * from "./footer";
 export * from "./shared";
 export * from "./webdesing";
 export * from "./about";
-``;
+export * from "./Graphicdesign";
+export * from "./appdesign";
+export * from "./location";
+export * from "./contact";

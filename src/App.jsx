@@ -1,6 +1,7 @@
 import {
   AboutUs,
   Appdesing,
+  ContactUs,
   Graphicdesing,
   Home,
   Location,
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/graphic" element={<Graphicdesing />} />
           <Route path="/about" element={<AboutUs />} />
           <Route path="/location" element={<Location />} />
+          <Route path="/contact-us" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>
     </>
